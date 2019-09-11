@@ -36,6 +36,11 @@ git commit -m "MESSAGE"
  
 - commmits the stashewd files to the repo, and adds the the message that describe what has done
 
+```Bash 
+git log
+```
+
+- show the history of the commits made to this point in time
 
 33 Other git things
 
