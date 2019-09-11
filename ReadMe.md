@@ -68,4 +68,4 @@ git remote add origin https://github.com/km0904/git-cheatsheet.git
 **.gitignore** is a file that tells git files/folders that are not to be part of the repository (that is - ignored when added/commiting)
 
 # comprehensive .gitignore found at:
-# https://github.com/github/gitignore/blob/master/python
+# https://github.com/github/gitignore/blob/master/Python.gitignore
