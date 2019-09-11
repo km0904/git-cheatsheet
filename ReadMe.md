@@ -52,9 +52,18 @@ git log --all --decorate --oneline --graph
 git config --global alias.adog "log --all --decorate --oneline --graph
 ```
 
-- creates a git alias 
-- use this alias by 
+- creates a git alias for the log all decorate online graph command.
+- use this alias by entering `git adog`(much shorter)
+
+```Bash
+git remote add origin https://github.com/km0904/git-cheatsheet.git
+```
+
+- 
 
 33 Other git things
 
 **.gitignore** is a file that tells git files/folders that are not to be part of the repository (that is - ignored when added/commiting)
+
+# comprehensive .gitignore found at:
+# https://github.com/github/gitignore/blob/master/python
