@@ -1,3 +1,10 @@
 _pycache_
 .idea
 .idea/*
+venv
+env
+.pytest_cache
+.coverage
+
+# comprehensive .gitignore found at:
+# https://github.com/github/gitignore/blob/master/python

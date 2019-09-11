@@ -28,7 +28,7 @@ git show
 git add FILENAME
 ```
 
-- add the file filename nd ANOTHERFILENAME to the stash 
+- add the file filename and ANOTHERFILENAME to the stash 
 
 ```bash 
 git commit -m "MESSAGE"
@@ -42,6 +42,19 @@ git log
 
 - show the history of the commits made to this point in time
 
+```Bash
+git log --all --decorate --oneline --graph
+```
+
+- displays a 'graph' of the commits, one commits per line
+
+```Bash
+git config --global alias.adog "log --all --decorate --oneline --graph
+```
+
+- creates a git alias 
+- use this alias by 
+
 33 Other git things
 
-**.gitignore** is a file that tells git files/folders that are not to be part
+**.gitignore** is a file that tells git files/folders that are not to be part of the repository (that is - ignored when added/commiting)
